@@ -1,0 +1,114 @@
+/*DEMO CSS CODE STARTS HERE*/
+html {margin:0;padding:0;height:100%;}
+body {font-family: 'Open Sans', sans-serif;overflow-y:scroll;font-size:100%;line-height:1.5em;background: url(bg.jpg);background-attachment: fixed;background-position: 50% 50%;background-size: cover;color:#090909;margin:0;}
+
+a,a:link,a:active,a,a:active,a:visited {color: #B39DDB;-webkit-transition: all 0.2s ease;transition: all 0.2s ease;text-decoration:none;}
+h1 {font-family: 'Rubik', sans-serif;font-size: 2.75em;line-height: 1.4em;font-weight:300;margin: 0;color:#FFF;margin-bottom: 25px;}
+h2 {font-family: 'Rubik', sans-serif;font-size: 1.5em;font-weight:300;margin: 0;color:#FFF;}
+p {font-size: 1.1em;line-height:1.6em;margin-bottom:15px;}
+strong {font-weight:500;}
+
+#container {width: 55%;margin: 25px auto;max-width: 745px;min-width: 745px;-webkit-box-shadow: 0 0px 10px 5px rgba(0,0,0,.2);box-shadow: 0 0px 10px 5px rgba(0,0,0,.2);}
+#header {padding: 5% 7.5%;display: block;background: #512DA8;margin: auto;height: 175px;opacity: .9;}
+#content {padding: 5% 7.5%;display: block;background: #FFF;}
+
+.wrapper {background: #212121;color: #FFF;opacity: .8;}
+.wrapper p {font-family: 'Rubik', sans-serif;margin:0;}
+
+.wrap {width: 665px;margin: auto;text-align: center;padding: 5px;line-height: 1.25em;}
+.wrap a:hover {color:#FFF;}
+
+
+/*COPY CODE BELOW INTO YOUR EXISTING STYLESHEET*/
+#form {width: 100%;}
+
+/*Error/Success*/
+#error,#success {display:none;color:#FFF;padding: 5%;margin-bottom: 25px;}
+#error {background: #e74c3c;}
+#success{background: #2ecc71;}
+
+/*Form*/
+#easyform {float:left;max-width: 675px;margin: auto;}
+#easyform label {font-size:14px;text-transform:uppercase;letter-spacing:1px;}
+#easyform .input {width: 47.5%;float: left;margin: 0 0 20px 0;}
+#easyform .textarea {width: 100%;}
+#easyform .last {float: right;}
+#easyform input.text, #easyform textarea {font-family: 'Source Sans Pro', sans-serif;font-size: 16px;padding: 11px;border-radius: 5px;border: 1px solid #cecece;-webkit-box-sizing: border-box;box-sizing: border-box;width: 100%;float: left;outline: none;}
+#easyform input[type=text]:focus, #easyform input[type=tel]:focus, #easyform textarea:focus {margin-right: 0px;box-shadow: 0 0 3px #512da8;border: 1px solid #5133a1;}
+#easyform input:hover, #easyform textarea:hover {border: 1px solid #7E57C2;-webkit-transition: all 0.2s ease;transition: all 0.2s ease;}
+#easyform textarea {height: 200px;}
+#easyform span {color:red;}
+#easyform .verification {width: 100%;float: left;}
+#easyform #verify_image {width: 100px;height: 44px;float: left;border-radius: 5px;}
+#easyform .refresh {width: 42px;height: 42px;display: block;float: left;margin: 0 7px;border:0;}
+#easyform #verify {width: 145px;float: left;}
+#easyform button {float: right;display: block;width: 150px;border-radius: 5px;text-transform: uppercase;letter-spacing: 1px;background: #512DA8;padding: 15px 20px;color: #fff;text-align: center;margin:0;border:0;-webkit-transition: all 0.2s ease;transition: all 0.2s ease;cursor:pointer;}
+#easyform button:hover {background: #7E57C2;}
+
+
+/*OPTIONAL RESPONSIVE STYLES BELOW*/
+
+    @media only screen and (max-width: 1000px) {
+    .wrap {width: auto;padding: 5px;line-height: 1.25em;}
+    h1 {font-size: 2.5em;line-height: 1em;margin-bottom: 20px;}
+    h2 {font-size: 1.45em;}
+    #container {width: 95%;min-width: 0;}
+    #header {height: 170px;}
+    #easyform .verification {height: auto;}
+    #easyform #verify_image {width: 99px;height: 42px;float: left;}
+    #easyform .refresh {float: right;margin: 0;}
+    #easyform #verify {width: 100%;margin: 25px 0;}
+    }
+
+
+    @media only screen and (max-width: 800px) {
+    .wrap {width: auto;padding: 5px;line-height: 1.25em;}   
+    h1 {font-size: 2.25em;line-height: 1em;margin-bottom: 15px;}
+    h2 {font-size: 1.4em;}
+    #container {width: 93%;min-width: 0;}
+    #header {height: 160px;}
+    #easyform .verification {height: auto;}
+    #easyform #verify_image {width: 99px;height: 42px;float: left;}
+    #easyform .refresh {float: right;margin: 0;}
+    #easyform #verify {width: 100%;margin: 25px 0;}
+    }
+
+
+    @media only screen and (max-width: 600px) {
+    .wrap {width: auto;padding: 5px;line-height: 1.25em;}
+    h1 {font-size: 2em;line-height: 1em;margin-bottom: 10px;}
+    h2 {font-size: 1.35em;}
+    #container {width: 91%;min-width: 0;}
+    #header {height: 155px;}
+    #easyform .input {width: 100%;}
+    #easyform .textarea {max-width: 100%;}
+    #easyform .verification {height: auto;}
+    #easyform #verify_image {width: 99px;height: 42px;float: left;}
+    #easyform .refresh {float: right;margin: 0;}
+    #easyform #verify {width: 100%;margin: 25px 0;}
+    }
+
+
+    @media only screen and (max-width: 500px) {
+    .wrap {width: auto;padding: 5px;line-height: 1.25em;}
+    h1 {font-size: 1.75em;line-height: 1em;}
+    h2 {font-size: 1.3em;}
+    #container {width: 89%;min-width: 0;}
+    #header {height: 150px;}
+    #easyform .textarea {max-width: 100%;}
+    #easyform .verification {height: auto;}
+    #easyform #verify_image {width: 99px;height: 42px;float: left;}
+    }
+
+    @media only screen and (max-width: 400px) {
+    .wrap {width: auto;padding: 5px;line-height: 1.25em;}
+    h1 {font-size: 2.65em;line-height: 1em;padding: 0 0 15px 0;margin: 0 0 15px 0;}
+    h2 {font-size: 1.25em;}
+    #container {width: 90%;min-width: 0;}
+    #header {height: 150px;padding: 15px 30px;}
+    #content {padding: 15px 30px 22px 30px;}
+    #error {padding: 20px;}
+    #success{padding: 20px;}
+    #easyform .input {max-width: 48%;}
+    #easyform .textarea {max-width: 100%;}
+    }

@@ -1,6 +1,4 @@
 {
-"name": "acme/brilliant-wordpress-site",
-"description": "My brilliant WordPress site",
 "repositories":[
 	{
 		"type":"composer",
@@ -8,14 +6,7 @@
 	}
 ],
 "require": {
-	"aws/aws-sdk-php":"*",
-	"wpackagist-plugin/akismet":"dev-trunk",
-	"wpackagist-plugin/wordpress-seo":">=7.0.2",
-	"wpackagist-theme/hueman":"*"
-},
-"autoload": {
-	"psr-0": {
-		"Acme": "src/"
-	}
+	"wpackagist-plugin/wordpress-seo":">1.7.3",
+	"wpackagist-plugin/simple-google-analytics-tracking":">1.0"
 }
 }
